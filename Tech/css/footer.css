@@ -1,0 +1,100 @@
+
+
+
+.Footer {
+    margin-top: 40vh;
+    width: 100%;
+    height: 450px;
+    background-color: gray;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.inner-footer {
+    height: 50%;
+    padding-top: 8%;
+    width: 85%;
+    /* background-color: saddlebrown; */
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: flex-start;
+}
+
+.inner-footer>p>img {
+    width: 300px;
+    height: 100px;
+}
+
+.insight {
+    /* background-color: slategray; */
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    height: 100%;
+    /* align-items: center; */
+}
+
+.first-insight,
+.second-insight,
+.third-insight {
+    /* background-color: sandybrown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+}
+
+.first-insight>p,
+.second-insight>p,
+.third-insight>p {
+    font-size: 20px;
+    color: beige;
+    padding-bottom: 20px;
+}
+
+.first-insight>.inner-first-insight,
+.second-insight>.inner-second-insight,
+.third-insight>.inner-third-insight {
+    /* background-color: black; */
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15%;
+    padding-top: 0%;
+}
+
+
+.first-insight>.inner-first-insight>span>a,
+.second-insight>.inner-second-insight>span>a,
+.third-insight>.inner-third-insight>span>a {
+    font-size: 16px;
+    text-decoration: none;
+    color: beige;
+    transition: all .3s ease-in-out;
+}
+
+.first-insight>.inner-first-insight>span>a:hover,
+.second-insight>.inner-second-insight>span>a:hover,
+.third-insight>.inner-third-insight>span>a:hover {
+    color: rgb(102, 2, 2) !important;
+    font-size: 17px;
+}
+
+.social-handles {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-handles>span>a>svg>path{
+    transition: all .3s ease-in-out;
+}
+
+.social-handles>span>a>svg>path:hover {
+    fill: rgb(102, 2, 2) !important;
+}

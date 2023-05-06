@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    transition: all .3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+/*********************************IMAGE HEADER************************************/
+#image-header{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/shttefan-mtu6m_nLFQI-unsplash.jpg);  
+    background-size: cover;
+    background-color: rgb(138, 135, 135);
+    background-blend-mode: multiply;
+    color: rgb(203, 201, 201);
+    transition: 1s ease-in; 
+    margin-bottom: 10%;
+    position: relative;
+    width: 100%;
+}
+
+#image-header:hover{
+    background-image: url(../images/shttefan-mtu6m_nLFQI-unsplash.jpg);  
+    background-color: rgb(79, 79, 79);
+    background-blend-mode: multiply;
+}
+
+
+#image-header p{
+    width: 50%;
+    font-size: 125%;
+}
+
+#image-header h3{
+    width: 50%;
+    text-align: left;
+}
+
+
+/******************************************SECTION TWO************************************/
+.section-two{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.section-two h2{
+     margin-top: -13%; 
+    width: 60%;
+    text-align: left;
+    font-size: 213%;
+     max-height: 20vh;
+     margin-bottom: 1.5%; 
+    color: black;
+}
+
+.section-two p{
+    font-size: 122%;
+    line-height: 172%; 
+    width: 60%;
+    color: black;
+}
+
+
+/**********************************************SECTION-THREE******************************/
+#section-three{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-top: -5%;
+    margin-bottom: -12%;    
+}
+
+#section-three .image-three{
+    background-image:url(../images/jeremy-bishop-cEeEtjedNls-unsplash.jpg) ;
+    background-color: rgb(180, 180, 180);
+    background-size: cover;
+    width: 50%;
+    height: 60vh;
+    margin-right: 2%;
+    margin-left: 2%;    
+}
+
+#section-three .text-three{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2%;
+}
+
+#section-three .text-three h2{
+    font-size: 132%;
+    padding-bottom: 2%;
+    position: relative;
+    color: black;
+}
+
+#section-three .text-three h1{
+    font-size: 179%;
+    padding-bottom: 2%;
+    color: black;
+}
+
+/*********************************SECTION FOUR**************************************/
+
+#section-four{   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+#section-four .image-four{    
+    background-image:url(../images/IMG-20220905-WA0078.jpg) ;
+    background-color: rgb(180, 180, 180);
+    background-size: cover;
+    width: 50%;
+    height: 60vh;
+    margin-right: 2%;
+    margin-left: 2%;    
+}
+
+#section-four .text-four{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2%;
+}
+
+#section-four .text-four h2{
+    text-align: left;
+    font-size: 132%;
+    padding-bottom: 2%;
+    position: relative;
+    color: black;
+}
+
+#section-four .text-four h1{
+    font-size: 179%;
+    padding-bottom: 2%;
+}
+
+/************************************COLUMNS WORDS AND PICTURE*******************************************/
+.words-picture{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.words-picture h2{
+    margin-left: -49%;
+    padding-bottom: 3%;
+    color: black;
+}
+
+.words-picture #picture{
+    background-image: url(../images/ashim-d-silva-WeYamle9fDM-unsplash.jpg);
+    background-color: rgb(180, 180, 180);
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    margin-left: -10%;
+    margin-bottom: 3%;
+}
+
+.words-picture .column-words{
+    width: 50%;
+    height: auto;
+    text-align: left;
+    margin-left: -10%;
+    font-size:20px ;
+}
+
+/************************************COLUMN TWO WORDS AND PICTURES********************************/
+.wordstwo-picture{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    text-align: left;
+    margin-bottom: 10%;
+}
+
+.wordstwo-picture h2{
+    margin-left: -49%;
+    padding-bottom: 3%;
+    color: black;
+ }
+
+.wordstwo-picture #picturetwo{
+    background-image: url(../images/biel-morro-_l8ZdgJ9m7w-unsplash.jpg);
+    background-color: rgb(180, 180, 180);
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    margin-left: -10%;
+    margin-bottom: 0px;
+}
+
+.wordstwo-picture .columntwo-words{
+    margin-top: 2%;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    margin-left: -10%;
+    font-size:20px ;
+}
+
+
+#icons{
+    display: flex;
+    width: 100%;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/********************************************MEDIA QUERIES [TABLETS]**********************************/
+@media screen and (min-width:500px)  and (max-width:991px){
+
+    .wrapper .border{
+        width: 71%;
+        margin-bottom: -20%;
+        height: .2%;
+    }
+
+    .footer-wrapper{
+        margin-top: 20%;
+        position: relative;
+        width: 70%;
+        padding-top: 5%;       
+    }
+
+    
+    .location{
+     height: 1vh;
+     margin-bottom: -5%;
+    }
+
+    .section-two{
+        display: flex;
+        width: 100%;
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .section-two h2{
+        margin-top: -13%; 
+        width: 90%;
+        text-align: left;
+        font-size: 200%;
+        max-height: 20vh;
+        margin-bottom: 1.5%;     
+    }
+    
+    .section-two p{
+        font-size: 110%;
+        line-height: 152%; 
+        width: 90%;
+    }
+
+    #image-header p{
+        text-align: center;
+        width: 75%;
+        font-size: 115%;
+    }
+
+    #section-three{
+        flex-direction: column;
+        background-color: whitesmoke;
+        margin-top: unset;
+        margin-bottom: unset; 
+    }
+
+    #section-three .image-three{
+        width: 90%;   
+    }
+    
+    #section-three .text-three{
+        width: 90%;
+        padding-left: 0%;
+    }
+    
+
+    #section-three .text-three h1{
+        font-size: 159%;
+        padding-bottom: 2%;
+    }
+    
+    #section-four .text-four h1{
+        font-size: 159%;
+        padding-bottom: 2%;
+    }
+
+
+
+
+    #section-four{
+        background-color: saddlebrown;
+        flex-direction: column-reverse;
+        background-color: whitesmoke;
+        margin-top: unset;
+        margin-bottom: unset; 
+    }
+
+    #section-four .image-four{
+        width: 90%;   
+    }
+
+    #section-four .text-four{
+        width: 90%;
+        padding-left: 0%;
+    }
+
+
+
+
+
+/************************************COLUMN TWO WORDS AND PICTURES********************************/
+    .wordstwo-picture{
+        width: 100%;
+        margin-top: 5%;
+        text-align: unset;
+    }
+
+    .wordstwo-picture h2{
+        margin-left: 0%;
+        padding-bottom: 3%;
+        color:black;
+    }
+
+    .wordstwo-picture #picturetwo{
+        width: 90%;
+        margin-left: 0%;
+    }
+
+    .wordstwo-picture .columntwo-words{
+        width: 90%;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .words-picture{
+        width: 100%;
+        margin-top: 5%;
+        text-align: unset;
+    }
+
+    .words-picture h2{
+        margin-left: 0%;
+        padding-bottom: 3%;
+        color:black;
+    }
+
+    .words-picture #picture{
+        width: 90%;
+        margin-left: 0%;
+    }
+
+    .words-picture .column-words{
+        width: 90%;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+
+  }
+@media screen and (min-width:300px)  and (max-width:599px){
+    #purpose{
+        margin-top: 20%;
+    }
+
+    #section-three .image-three,#section-three .text-three{
+        height: 40vh;
+        width: inherit;
+        margin-bottom: 0%;
+    }
+
+    #section-four .image-four,#section-four .text-four{
+        margin-top: 0%;
+        height: 40vh;
+        width: inherit;
+    }
+
+    #picturetwo{
+        height: 60vh;
+    }
+
+    .section-two{
+       height: 100vh;
+       margin: 0px;
+    }
+
+    #about #diff{
+        display: none;
+    }
+
+    #image-header h3, #image-header p{
+        display: none;
+    }
+
+    #image-header{
+        height: 50vh;
+    }
+
+    #section-three{
+        flex-direction: column;
+        background-color: whitesmoke;
+        margin-top: unset;
+        margin-bottom: unset; 
+    }
+
+    #section-three .image-three{
+        width: 90%;   
+    }
+    
+    #section-three .text-three{
+        width: 90%;
+        padding-left: 0%;
+    }
+
+
+    #section-four{
+        flex-direction: column-reverse;
+        background-color: whitesmoke;
+        margin-top: unset;
+        margin-bottom: unset; 
+    }
+
+    #section-four .image-four{
+        width: 90%; 
+    }
+
+    #section-four .text-four{
+        width: 90%;
+        padding-left: 0%;
+    }
+
+
+
+
+
+
+    /************************************COLUMN TWO WORDS AND PICTURES********************************/
+    .wordstwo-picture{
+        width: 100%;
+        margin-top: 5%;
+        text-align: unset;
+    }
+
+    .wordstwo-picture h2{
+        margin-left: 0%;
+        padding-bottom: 3%;
+        color:black;
+    }
+
+    .wordstwo-picture #picturetwo{
+        width: 90%;
+        margin-left: 0%;
+    }
+
+    .wordstwo-picture .columntwo-words{
+        width: 90%;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .words-picture{
+        width: 100%;
+        margin-top: 5%;
+        text-align: unset;
+    }
+
+    .words-picture h2{
+        margin-left: 0%;
+        padding-bottom: 3%;
+        color:black;
+    }
+
+    .words-picture #picture{
+        width: 90%;
+        margin-left: 0%;
+    }
+
+    .words-picture .column-words{
+        width: 90%;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+
+    .section-two{
+        display: flex;
+        width: 100%;
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .section-two h2{
+        margin-top: -13%; 
+        width: 90%;
+        text-align: left;
+        font-size: 200%;
+        max-height: 20vh;
+        margin-bottom: 1.5%;     
+    }
+    
+    .section-two p{
+        font-size: 110%;
+        line-height: 152%; 
+        width: 90%;
+    }
+  
+}
+
+@media screen and (max-width:400px) {
+    .section-two p{
+        font-size: 110%;
+        line-height: 152%; 
+        width: 90%;
+        text-align: center;
+    }
+}

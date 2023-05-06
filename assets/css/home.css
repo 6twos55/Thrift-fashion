@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    transition: all .3s ease-in-out;
+    font-family: 'Manrope', sans-serif;
+}
+
+.activee{
+    transition: all .3s ease-in-out;
+}
+
+.activee:hover{
+    color: rgb(213, 79, 79) !important;
+}
+
+.activee1:hover{
+    color: rgb(213, 79, 79) !important;
+}
+
+.activee2:hover{
+    color: rgb(213, 79, 79) !important;
+}
+
+.carouselinnertext{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+
+/* ******************************************CAROUSEL SLIDER******************************************/
+
+ #carasa{
+    margin-bottom: 5rem;
+}
+
+.carouselImages {
+    height: 100vh;
+    object-fit: cover;
+} 
+
+/* ********************************************CAROUSEL DIVIDER TEXT-------COMPANY CARDS******************************* */
+
+
+ .text-1{
+    display: flex;    
+    width: 100%;
+    height: 10vh;
+    justify-content: start;
+    color: black; 
+    margin-top: 6%;
+    margin-bottom: -8%;
+    margin-left: 0%;
+    text-align: start;
+}
+
+.text-1 p {
+    font-size: 1.5rem;
+    margin-left: 2%;
+    margin-bottom: -5%;
+    /* : 'Homizio', sans-serif; */
+    font-weight: bolder;
+} 
+
+#text-1{
+    width: 98%;
+    margin: 5% 5% 5% 1%;
+
+}
+
+
+
+/* *********************************************IMAGE-1  STYLES ************************************/
+
+
+.head{
+    width: 98%;
+    height: 75vh;
+    background-image: url(../images/child\ cloth\ 1.jpg);
+    background-color: rgb(165, 165, 165);
+    margin: 5% 5% 5% 1%;
+     background-blend-mode: multiply;
+     background-size: cover;
+     background-position: center;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
+
+.head:hover{
+    background-color: white;
+
+     background-blend-mode: multiply;
+     background-size: cover;
+     background-position: center;
+}
+
+.welcome{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding-left: 20px;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+.welcome > h2{
+    margin-top: -10%;
+    margin-bottom: 0%;
+    color: black;
+    font-size:2.5rem;
+
+}
+
+div p{
+    font-size: 115%;
+    margin-bottom: 2%;
+}
+
+.welcome .about{
+    text-align: center;
+    width: 12%;
+    border: 3px solid rgba(92, 91, 91, 0.781);
+    padding: .6% 0%;
+    font-size: 126%;
+    /* : "Proxima Nova Condensed"; */
+    transition: .3s ease-in-out;
+    background-color: transparent;
+}
+.welcome .about:hover{
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+.welcome a{
+    text-decoration: none;
+    color: black;
+} 
+
+/* **********************************************TWO CARDS STYLES****************************************** */
+
+
+.texter-1{
+    margin-top: 6%;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 10vh;
+    /* : "Proxima Nova Condensed"; */
+    font-size: 150rem;
+    justify-content: flex-start;
+    padding-left: 5%;
+    margin-bottom: -8%;    
+}
+
+.texter-1 p{
+    font-size: 1.7rem;
+    /* : "Proxima Nova Condensed"; */
+} 
+
+
+#two-cards{
+    width: 98%;
+    margin: 2% 5% 1% 1%;
+    padding: 3%;
+}
+
+/* *******************************************IMAGE-2 STYLES************************************/
+.image-2{
+    background-color: rgb(241, 241, 241);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(128, 109, 90);
+    background-image: url(../images/biel-morro-_l8ZdgJ9m7w-unsplash.jpg);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0%;
+    margin: auto;
+    margin-bottom: 15% ;
+    margin-top: 5%;
+    width: 98%;
+    min-height: fit-content !important;
+    max-height: 50vh;
+    position: relative;
+}
+
+/* background-image: url(../images/biel-morro-_l8ZdgJ9m7w-unsplash.jpg);
+background-blend-mode: multiply; */
+
+.text-2{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center; 
+    padding-top: 15%;
+    padding-left: 3%;
+    /* background-color: saddlebrown; */
+    
+}
+
+ h2 {
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-size: 258%;
+    color: white;    
+}
+
+.text-2 > p{
+    /* border: 1px solid red; */
+    /* : "Proxima Nova Condensed"; */
+    font-size: 17px;
+    /* margin-bottom: 2 0%; */
+    text-align: start;
+    color: white;    
+    width: 50%;
+}
+
+.text-2 > a{
+    width: fit-content;
+    border: 1px solid rgb(213, 79, 79);
+    padding: .6% 0%;
+    font-size: 126%;
+    transition: .3s ease-in-out;
+    color: white;    
+    text-decoration: none;
+    background-color: transparent;
+    background-color: rebeccapurple;
+    /* z-index: 4; */
+    position: absolute;
+    bottom: 3;
+}
+.about-2:hover{
+    color: white;
+    background-color: rgb(213, 79, 79);
+    cursor: pointer;
+}
+.text-2 > a{   
+    /* : "Proxima Nova Condensed"; */
+    text-decoration: none;
+    color: black;
+} 
+
+.text-up-1{
+    margin-left: 1%;
+    margin-top: 10%;
+}
+
+#text-up{
+    margin: 0%;
+}
+
+
+.diser{
+    pointer-events: none !important;
+}
+
+
+
+
+/********************************************MEDIA QUERIES [TABLETS]**********************************/
+@media screen and (min-width:500px)  and (max-width:991px){
+    .text-1 p {
+        font-size: 2rem;
+        margin-left:0%;
+        text-align: center;
+    } 
+    
+ .text-1{
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    color: black; 
+    margin-top: 0%;
+    margin-bottom: -6%;
+    margin-left: 0%;
+    text-align: center;
+  }
+
+    .head{
+        width: 98%;
+        height: 60vh;
+    }
+    
+    .welcome h1{
+        margin-top: 20%;
+    }
+
+    br{
+        display: none;
+    }
+
+    .welcome .about{
+        width: auto;
+        padding:.6%;
+    }
+
+    .text-2{
+        padding-top: 10%;
+        height: 50vh;
+    }
+
+    .about-2{
+        width: fit-content;
+        padding:.6%;
+        bottom: 50px;
+    }
+    .image-2 .text-2{
+        border: 1px solid red;
+        width: 95vw;
+    }
+   
+    
+}
+
+/********************************************MEDIA QUERIES [PHONES]**********************************/
+@media screen and (min-width:160px)  and (max-width:565px){
+    .welcome .about{
+        width: 100%;
+        padding:.6%;
+    }
+    
+    .image-2{
+        padding: 10px;
+        /* border: 1px solid red; */
+        height: 80vh;
+        position: relative;
+    }
+    .text-2{
+        /* border: 1px solid red; */
+        font-size: 13px;
+        /* padding: 10px; */
+        /* height: inherit; */
+    }
+    .about-2{
+        width: 30%;
+        padding:.6%;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+    }
+    .head, .image-2{
+        height: 60vh;
+    }
+
+    .welcome h2{
+        margin-top: 25%;
+    }
+
+    br{
+        display: none;
+    }
+
+    .text-2 p{
+        font-size: 110%;
+    }
+
+    .text-2 .about-2{
+        margin-top: 12%;
+    }
+
+    /* .about-2{
+        width: 300px;
+        padding:.6%;
+        bottom: 50px;
+    } */
+}
+
+@media screen and (min-width:481px)  and (max-width:1700px){
+    
+    .welcome h2{
+        margin-top: 19%;
+    }
+}
